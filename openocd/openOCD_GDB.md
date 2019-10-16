@@ -5,7 +5,7 @@ OpenOCD provides two access points:
   well as microcontrollers.
 * Telnet Server : controls like flash writing
 
-![OpenOCD Image](C:\git_repos\stm32_open_tools_for_linux\images\openOCD.JPG)
+![OpenOCD Image](./images/openOCD.JPG)
 
 OpenOCD can be used to debug remote targets as it complies with thr remote gdbserver protocol.
 

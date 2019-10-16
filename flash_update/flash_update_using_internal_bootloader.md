@@ -4,7 +4,7 @@ Stm32 internal bootloader supports flash programming using uart, ic, usb etc. de
 
 e.g. for stm32f4,  Boot1=0 & boot0=1 to execute the internal bootloader
 
-![](C:\git_repos\stm32_open_tools_for_linux\images\stm32f4_boot_modes.jpg)
+![](./images/stm32f4_boot_modes.jpg)
 
 ## Dfu/usb to update the flash
 
@@ -32,7 +32,7 @@ More info @[link to dfu-util](http://dfu-util.sourceforge.net/)
 
 Dfu programming on stm32f417 eval board
 
-![](C:\git_repos\stm32_open_tools_for_linux\images\snapshots\dfu_flash.jpg)
+![](./images/dfu_flash.jpg)
 
 ## Bootloader uart/i2c interface to update the flash
 
@@ -45,4 +45,4 @@ Flashing stm32f4:
 e.g. 
 > sudo ./stm32flash -w STM32CubeDemo_STM324xG-EVAL_1.4.0.hex -v -g 0x0 /dev/ttyS0
 
-![](C:\git_repos\stm32_open_tools_for_linux\images\snapshots\stm32flash.jpg)
+![](./images/stm32flash.jpg)
